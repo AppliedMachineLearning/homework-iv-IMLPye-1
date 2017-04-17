@@ -7,6 +7,6 @@ python:
 install: 
 - "pip install -U pip"
 #- "pip install -U pandas scikit-learn numpy matplotlib nbconvert ipykernel"
-- "pip install -U pandas scikit-learn numpy matplotlib nbconvert jupyter_client ipykernel scipy"
+- "pip install -U pandas scikit-learn numpy matplotlib nbconvert ipykernel scipy"
 # command to run tests
 script: jupyter-nbconvert --execute hw4_starter_notebook.ipynb
